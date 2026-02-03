@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SVG Drawing Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+    <div class="controls">
+        <input type="color" id="colorPicker" value="#1f6fff">
+        <button id="undoBtn">Undo</button>
+    </div>
+
+    <svg id="canvas" viewBox="0 0 100 60" preserveAspectRatio="xMidYMid meet"></svg>
+
+    <p>Circles drawn: <span id="count">0</span></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
